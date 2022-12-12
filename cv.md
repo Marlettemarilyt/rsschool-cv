@@ -17,3 +17,20 @@ Hello. I'm a student of Medical Univercity. I love to study and learn something 
 * Git
 
 ------------------
+
+### Code example
+```
+function summ(a, b) {
+    return a + b;
+}
+```
+------------------
+
+### Education
+* Vitebsk State Medical University
+
+------------------
+
+### Language
+* Russian - native
+* English - A2
