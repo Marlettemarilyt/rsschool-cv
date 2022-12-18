@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ffffff ;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    height: 70px;
+    background-color: #18181a;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+.nav {
+    align-content: center;
+}
+
+.nav-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav-item {
+    transition: transform 0.4s ease-in;
+}
+
+.nav-item:hover {
+    transform: scale(1.2);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile-photo {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintitle {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contacts-item {
+    font-size: 24px;
+
+}
+
+.contacts-span {
+    font-weight: 800;
+}
+
+.about-text {
+    font-size: 24px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.skills-item {
+    font-size: 38px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    transition: transform 0.4s ease-in;
+    cursor: pointer;
+}
+
+.skills-item:hover {
+    transform: scale(1.2);
+}
+
+.code-example {
+    background-color: rgb(213, 220, 226);
+    border-radius: 20px;
+}
+
+code {
+    font-size: 24px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-link {
+    display: flex;
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.project-link:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.project-link:hover::before {
+    content: url('./assets/img/icon-check.svg');
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.project-img {
+    width: 100%;
+}
+
+.education-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.education-item {
+    list-style-type: disc;
+}
+
+.language-item {
+    font-size: 24px;
+}
+
+footer {
+    background-color: gray;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rs-school-logo,
+.github {
+    height: 90px;
+    width: 90px;
+    transition: transform 0.4s ease-in;
+}
+
+.rs-school-logo:hover {
+    transform: scale(1.2);
+}
+
+.github:hover {
+    transform: scale(1.2);
+}
+
+.year {
+    font-size: 24px;
+}
