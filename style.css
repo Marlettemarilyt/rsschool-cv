@@ -98,3 +98,18 @@ code {
 .language-item {
     font-size: 24px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rs-school-logo {
+    height: 90px;
+}
+
+.year {
+    font-size: 24px;
+}
