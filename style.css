@@ -84,3 +84,17 @@ li {
 code {
     font-size: 24px;
 }
+
+.education-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.education-item {
+    list-style-type: disc;
+}
+
+.language-item {
+    font-size: 24px;
+}
