@@ -101,9 +101,17 @@ li {
     font-size: 24px;
 }
 
+.sections {
+    display: flex;
+}
+
+.skills {
+    width: 50%;
+}
+
 .skills-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
@@ -127,10 +135,17 @@ li {
 .code-example {
     background-color: rgb(213, 220, 226);
     border-radius: 20px;
+    padding: 10px;
 }
 
 code {
     font-size: 24px;
+    width: 50%;
+}
+
+.section-project {
+    display: flex;
+    gap: 15px;
 }
 
 .projects {
@@ -170,6 +185,13 @@ code {
     width: 100%;
 }
 
+.education {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .education-link {
     font-size: 24px;
     color: black;
@@ -178,6 +200,13 @@ code {
 
 .education-item {
     list-style-type: disc;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .language-item {
